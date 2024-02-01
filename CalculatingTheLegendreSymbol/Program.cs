@@ -12,8 +12,6 @@ namespace CalculatingTheLegendreSymbol
             Console.Write("Введите p: ");
             var p = int.Parse(Console.ReadLine());
             CalculatingTheLegendreSymbol(a, p);
-            //Console.WriteLine(CalculatingTheLegendreSymbol(561, 757));
-            //Console.WriteLine(CalculatingTheLegendreSymbol(426, 557));
             Console.ReadKey();
         }
 
