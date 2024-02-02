@@ -57,7 +57,7 @@ namespace CalculatingTheLegendreSymbol
                     Console.WriteLine($"{{{factor} mod 4 = {factor % 4}}} и {{{p} mod 4 = {p % 4}}} значит переворачиваем со знаком минус");
                 }
                 Console.WriteLine($"({p}/{factor}) = ({newP}/{factor})");
-                if (newP == 2) return new List<sbyte>() { GetLocalLegendreSymbolWhenFactor2(p) };
+                if (newP == 2) return new List<sbyte>() { GetLocalLegendreSymbolWhenFactor2(factor) };
                 else
                 {
                     if (IsPrime(newP))
